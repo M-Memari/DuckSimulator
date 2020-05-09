@@ -6,6 +6,9 @@ namespace DuckSimulator
     {
         private static void Main()
         {
+            // The goal was to max code reuse, dynamically change object behaviour at runtime
+            // and ease of adding new subclasses.
+
             var myDucks = new List<Duck>()
             {
                 new DecoyDuck(),
