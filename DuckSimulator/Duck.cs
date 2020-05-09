@@ -4,6 +4,7 @@ namespace DuckSimulator
 {
     public  abstract class Duck
     {
+        //Dependency injection & Composition 
         private IFlyBehaviour FlyBehaviour { get;  }
         private ISoundBehaviour SoundBehaviour { get;  }
 

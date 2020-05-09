@@ -14,6 +14,7 @@ namespace DuckSimulator
                 new DecoyDuck(),
                 new MallardDuck()
             };
+            //polymorphism
             foreach (var duck in myDucks)
             {
                 duck.MakeSound();
